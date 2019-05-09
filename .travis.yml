@@ -1,0 +1,16 @@
+dist: trusty
+sudo: required
+addons:
+  postgresql: "9.4"
+language: python
+python:
+  - "3.6"
+install:
+  - pip install -U pip setuptools
+  - pip install coveralls
+before_script:
+  - psql -c "create database travis_ci_test;" -U postgres
+script:
+  - coverage run --source=misago setup.py test
+after_success:
+  - coveralls
