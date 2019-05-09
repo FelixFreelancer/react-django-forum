@@ -2,10 +2,6 @@
 Django React Forum Project
 ======
 
-.. image:: https://travis-ci.org/rafalp/Misago.svg?branch=master
-   :target: https://travis-ci.org/rafalp/Misago
-   :alt: Tests Result
-
 .. image:: https://img.shields.io/badge/python-3.6-blue.svg
    :target: https://travis-ci.org/rafalp/Misago
    :alt: Works on Python 3.6
