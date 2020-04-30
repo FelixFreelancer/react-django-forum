@@ -52,7 +52,7 @@
     "gulp-uglify": "^1.5.1",
     "gulp-util": "^3.0.7",
     "history": "^2.0.2",
-    "jquery": "2.2.x",
+    "jquery": "3.5.x",
     "jquery-mockjax": "^2.0.1",
     "jquery.caret": "^0.3.1",
     "moment": "^2.10.6",
